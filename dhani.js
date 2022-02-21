@@ -74,8 +74,8 @@ botname = setting.BotName
 ownername = setting.OwnerName
 gaya1 = setting.gaya1
 gaya2 = setting.gaya2
-const fakeimage = fs.readFileSync ('./media/dhani.jpg')
-const thumb = fs.readFileSync ('./media/thumb.jpg')
+const fakeimage = fs.readFileSync ('./media/elaina.jpg')
+const thumb = fs.readFileSync ('./media/lol.jpg')
 
 //══════════[ Data Base ]══════════//
 
@@ -89,22 +89,22 @@ const _nsfw = JSON.parse(fs.readFileSync('./database/nsfw.json'))
 
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapanWaktu = 'Selamat Malam 🌌'
+        var ucapanWaktu = 'Selamat Malam '
 }
         if(time2 < "19:00:00"){
-        var ucapanWaktu = 'Selamat Petang 🌆'
+        var ucapanWaktu = 'Selamat Petang '
 }
         if(time2 < "18:00:00"){
-        var ucapanWaktu = 'Selamat Sore 🌇'
+        var ucapanWaktu = 'Selamat Sore '
 }
         if(time2 < "15:00:00"){
-        var ucapanWaktu = 'Selamat Siang 🏞'
+        var ucapanWaktu = 'Selamat Siang '
 }
         if(time2 < "11:00:00"){
-        var ucapanWaktu = 'Selamat Pagi 🌅'
+        var ucapanWaktu = 'Selamat Pagi '
 }
         if(time2 < "05:00:00"){
-        var ucapanWaktu = 'Selamat malam 🏙'
+        var ucapanWaktu = 'Selamat malam '
 }
 
 //══════════[ Module Export ]══════════//
